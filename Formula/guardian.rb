@@ -14,7 +14,7 @@ class Guardian < Formula
       end
     else
       url "https://github.com/guardianai-network/guardian-ai-smart-multi-cloud-infra-releases/releases/download/v0.3.5/guardian-macos-intel"
-      sha256 "6a23449c0954cebc2eb69d392eb1c8fa6996715f13bb514a4544510aba4ec389"
+      sha256 "9859675047eae4ae6306ae4ac16a95135906b9443ccc9a2280065aecc5a40ee7"
 
       def install
         bin.install "guardian-macos-intel" => "guardian"
