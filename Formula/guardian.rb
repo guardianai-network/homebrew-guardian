@@ -1,20 +1,20 @@
 class Guardian < Formula
   desc "Guardian Smart Multi-Cloud CLI — deploy everywhere, sleep soundly"
   homepage "https://github.com/LuckyOkoedion/guardian-ai-smart-multi-cloud-infra-releases"
-  version "0.3.15"
+  version "0.3.16"
   license "MIT"
 
   on_macos do
     if Hardware::CPU.arm?
-      url "https://github.com/LuckyOkoedion/guardian-ai-smart-multi-cloud-infra-releases/releases/download/v0.3.15/guardian-macos-apple-silicon"
-      sha256 "1f0f4fd850af100095c112371bd6d9f36766a328ddac31dd6a0c80ebe2e78834"
+      url "https://github.com/LuckyOkoedion/guardian-ai-smart-multi-cloud-infra-releases/releases/download/v0.3.16/guardian-macos-apple-silicon"
+      sha256 "eb95d5905f9dc0919196b6c1580e0b9f4142bc8d15a0c8e069e2cbd8f0d2a0bd"
 
       def install
         bin.install "guardian-macos-apple-silicon" => "guardian"
       end
     else
-      url "https://github.com/LuckyOkoedion/guardian-ai-smart-multi-cloud-infra-releases/releases/download/v0.3.15/guardian-macos-intel"
-      sha256 "bdf1a8c24e17445a15c62700d017a79ea621bc0d932047c97b92982a58ee4741"
+      url "https://github.com/LuckyOkoedion/guardian-ai-smart-multi-cloud-infra-releases/releases/download/v0.3.16/guardian-macos-intel"
+      sha256 "96841ede25bcc13a74cf29b98274d5c09fc81c91937de8df1e98a8bb24690c1b"
 
       def install
         bin.install "guardian-macos-intel" => "guardian"
@@ -23,8 +23,8 @@ class Guardian < Formula
   end
 
   on_linux do
-    url "https://github.com/LuckyOkoedion/guardian-ai-smart-multi-cloud-infra-releases/releases/download/v0.3.15/guardian-linux-x86_64"
-    sha256 "40c14dd5336b88b93a476179035c04a367041e19776199e38b6bd70fc60c5f1c"
+    url "https://github.com/LuckyOkoedion/guardian-ai-smart-multi-cloud-infra-releases/releases/download/v0.3.16/guardian-linux-x86_64"
+    sha256 "77ce00c6afc8f97d5f9871e58de1c6a19c138d487b0245c8be51bbbdd2d69a1a"
 
     def install
       bin.install "guardian-linux-x86_64" => "guardian"
